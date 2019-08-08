@@ -28,4 +28,7 @@ implementare il modello rappresentato dal diagramma class_diagram.png usando php
  
 ## test 5
 ispirandosi ai principi di clean code eseguire un refacrtory dell'esempio
-introducendo un modello ad ogegtti
+introducendo un modello ad oggetti
+
+## test 6
+ispirandosi ai principi SOLID indicare quale implementazione delle classi è più corretta

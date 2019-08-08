@@ -3,8 +3,10 @@ declare(strict_types=1);
 
 class Colore
 {
-public $nome;
-public $rgb;
+
+    public $nome;
+
+    public $rgb;
 
     /**
      * Colore constructor.

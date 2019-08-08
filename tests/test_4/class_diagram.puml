@@ -1,0 +1,34 @@
+@startuml
+
+abstract AbstractCollection{
+    getItems(): Item[]
+    getItem(item: Item): Item
+    addItem(item: Item):void
+    deleteItem(item: Item):void
+    count():integer
+}
+
+interface Cliente
+Item <|-- Cliente
+
+interface Countable{
+    count():integer
+}
+
+interface Item{
+    uuid:UUID
+    name:string
+}
+
+Collection <|-- AbstractCollection
+Countable <|-- AbstractCollection
+
+
+
+Clienti ..|> AbstractCollection
+
+Clienti o.. Cliente
+
+
+
+@enduml
